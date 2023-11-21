@@ -1,19 +1,15 @@
-## Arrumar
+def imprime_tabela(inicio = 0, fim = 301, passo = 10):
+    f = passo
+    fahrenheit = f - passo
 
-def imprime_tabela():
-    fahrenheit = 0
-
-    # ERRO - provavelmente em chamar a variavel
     def celsius(fahrenheit):
-
         cel = (fahrenheit-32) * 5/9 
-    #
+        return cel
 
     print(f"{'Fahrenheit':>12} {'Celsius':>12}")
 
-    for i in range(0, 310, 10):
-        
-        print(f'{fahrenheit:12}', f'{celsius(fahrenheit):12}')
-        fahrenheit += 10
+    for i in range(inicio, fim, passo):
+        print(f'{fahrenheit:12}', f'{celsius(fahrenheit):12.1f}')
+        fahrenheit += passo
 
 imprime_tabela()

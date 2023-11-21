@@ -16,6 +16,6 @@ for i in range(4, 7):
 
 # Tronco
 for i in range(2, 4):
-    print(f"{'|'*(i*2-1):^12}")S
+    print(f"{'|'*(i*2-1):^12}")
 
 print('============')
