@@ -1,7 +1,7 @@
 /*
     Aula 1
 
-- vai ter que memorizar os codigos, pois vai ter que ir direto pro moodle
+- vai ter que memorizar os códigos, pois vai ter que ir direto pro moodle
 - so prova, sem atividades
     
     Prova 1 30/10/24 aula 1 - 3
@@ -10,9 +10,9 @@
         - fluxograma
 
     Tipos de dados 
-        - %c - caractere (unico)
+        - %c - caractere (único)
         - %d ou i- decimal inteiro
-        - %f - floot 
+        - %f - float 
         - %lf - double
         - %s - string (cadeia de caracteres)
         - %p - ponteiro
@@ -21,7 +21,7 @@
 
     operadores
 
-        Aritmeticos
+        Aritméticos
         - - multiplicação
         - + adição
         - * multiplicação
@@ -42,7 +42,7 @@
         - ! NOT
         - || OR
 
-    Declaracão e escopo de variaveis
+    Declaração e escopo de variáveis
         - 
 
     Procedimentos de entrada de dados via teclado (scanf) e escrita na tela (printf).
@@ -57,12 +57,12 @@
             comando 2            
           }
 
-        - switch (variavel){
+        - switch (variável){
             case1:
-                codigo;
+                código;
                 break;
             case2:
-                codigo;
+                código;
                 break;
             default:
                 comando padrão;
